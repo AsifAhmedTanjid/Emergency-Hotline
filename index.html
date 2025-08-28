@@ -45,13 +45,13 @@
           <div
             class="bg-[#41ff6b1a] rounded-full flex justify-between items-center gap-[10px] px-[35px] py-[15px]"
           >
-            <p class="coin-count font-bold">100</p>
+            <p class="font-bold" id="coin-count">100</p>
             <img src="./assets/coin.png" alt="" class="h-[30px] w-[30px]" />
           </div>
           <div
             class="bg-[#00A63E] rounded-full flex justify-between gap-[10px] px-[35px] py-[15px] mb-[18px] lg:mb-[0px]"
           >
-            <p class="copy-count font-bold">0</p>
+            <p class="font-bold" id="copy-count">0</p>
             <p class="font-bold">Copy</p>
           </div>
         </div>
@@ -74,7 +74,7 @@
     <main class="bg-[#f5fff6] flex justify-center py-[48px]">
       <div class="min-h-[500px] mx-auto flex gap-[30px] flex-col lg:flex-row">
         <!-- cards -->
-        <section class="grid grid-cols-1 lg:grid-cols-3 gap-[30px]">
+        <section class="grid grid-cols-1 lg:grid-cols-3 gap-[30px]" id="call-cards">
           <!-- national emergency card  -->
           <div class="card bg-base-100 w-96 shadow-sm p-[32px]">
             <div class="flex justify-between items-center mb-[16px]">
@@ -91,11 +91,11 @@
               <i class="fa-regular fa-heart fa-2x"></i>
             </div>
             <div class="">
-              <h2 class="text-[24px] font-semibold">
+              <h2 class=" service-name text-[24px] font-semibold">
                 National Emergency Number
               </h2>
               <p class="text-[#5C5C5C] mb-[24px]">National Emergency</p>
-              <h1 class="text-[32px] font-bold">999</h1>
+              <h1 class="service-number text-[32px] font-bold">999</h1>
               <button
                 class="text-[#5C5C5C] px-[16px] py-[6px] bg-[#F2F2F2] rounded-full mb-[24px]"
               >
@@ -108,7 +108,7 @@
                   <i class="fa-regular fa-copy"></i>Copy
                 </button>
                 <button
-                  class="btn btn-outline w-39 rounded-[8px] bg-[#00A63E] border-none text-white"
+                  class="call-btn btn btn-outline w-39 rounded-[8px] bg-[#00A63E] border-none text-white"
                 >
                   <i class="fa-solid fa-phone"></i> Call
                 </button>
@@ -132,9 +132,9 @@
               <i class="fa-regular fa-heart fa-2x fa-2x"></i>
             </div>
             <div class="">
-              <h2 class="text-[24px] font-semibold">Police Helpline Number</h2>
+              <h2 class=" service-name text-[24px] font-semibold">Police Helpline Number</h2>
               <p class="text-[#5C5C5C] mb-[24px]">Police</p>
-              <h1 class="text-[32px] font-bold">999</h1>
+              <h1 class="service-number text-[32px] font-bold">999</h1>
               <button
                 class="text-[#5C5C5C] px-[16px] py-[6px] bg-[#F2F2F2] rounded-full mb-[24px]"
               >
@@ -147,7 +147,7 @@
                   <i class="fa-regular fa-copy"></i>Copy
                 </button>
                 <button
-                  class="btn btn-outline w-39 rounded-[8px] bg-[#00A63E] border-none text-white"
+                  class="call-btn btn btn-outline w-39 rounded-[8px] bg-[#00A63E] border-none text-white"
                 >
                   <i class="fa-solid fa-phone"></i> Call
                 </button>
@@ -170,9 +170,9 @@
               <i class="fa-regular fa-heart fa-2x"></i>
             </div>
             <div class="">
-              <h2 class="text-[24px] font-semibold">Fire Service Number</h2>
+              <h2 class=" service-name text-[24px] font-semibold">Fire Service Number</h2>
               <p class="text-[#5C5C5C] mb-[24px]">Fire Service</p>
-              <h1 class="text-[32px] font-bold">999</h1>
+              <h1 class="service-number text-[32px] font-bold">999</h1>
               <button
                 class="text-[#5C5C5C] px-[16px] py-[6px] bg-[#F2F2F2] rounded-full mb-[24px]"
               >
@@ -185,7 +185,7 @@
                   <i class="fa-regular fa-copy"></i>Copy
                 </button>
                 <button
-                  class="btn btn-outline w-39 rounded-[8px] bg-[#00A63E] border-none text-white"
+                  class="call-btn btn btn-outline w-39 rounded-[8px] bg-[#00A63E] border-none text-white"
                 >
                   <i class="fa-solid fa-phone"></i> Call
                 </button>
@@ -208,9 +208,9 @@
               <i class="fa-regular fa-heart fa-2x"></i>
             </div>
             <div class="">
-              <h2 class="text-[24px] font-semibold">Ambulance Service</h2>
+              <h2 class=" service-name text-[24px] font-semibold">Ambulance Service</h2>
               <p class="text-[#5C5C5C] mb-[24px]">Ambulance</p>
-              <h1 class="text-[32px] font-bold">1994-999999</h1>
+              <h1 class="service-number text-[32px] font-bold">1994-999999</h1>
               <button
                 class="text-[#5C5C5C] px-[16px] py-[6px] bg-[#F2F2F2] rounded-full mb-[24px]"
               >
@@ -223,7 +223,7 @@
                   <i class="fa-regular fa-copy"></i>Copy
                 </button>
                 <button
-                  class="btn btn-outline w-39 rounded-[8px] bg-[#00A63E] border-none text-white"
+                  class="call-btn btn btn-outline w-39 rounded-[8px] bg-[#00A63E] border-none text-white"
                 >
                   <i class="fa-solid fa-phone"></i> Call
                 </button>
@@ -246,9 +246,9 @@
               <i class="fa-regular fa-heart fa-2x"></i>
             </div>
             <div class="">
-              <h2 class="text-[24px] font-semibold">Women & Child Helpline</h2>
+              <h2 class=" service-name text-[24px] font-semibold">Women & Child Helpline</h2>
               <p class="text-[#5C5C5C] mb-[24px]">Women & Child Helpline</p>
-              <h1 class="text-[32px] font-bold">109</h1>
+              <h1 class="service-number text-[32px] font-bold">109</h1>
               <button
                 class="text-[#5C5C5C] px-[16px] py-[6px] bg-[#F2F2F2] rounded-full mb-[24px]"
               >
@@ -261,7 +261,7 @@
                   <i class="fa-regular fa-copy"></i>Copy
                 </button>
                 <button
-                  class="btn btn-outline w-39 rounded-[8px] bg-[#00A63E] border-none text-white"
+                  class="call-btn btn btn-outline w-39 rounded-[8px] bg-[#00A63E] border-none text-white"
                 >
                   <i class="fa-solid fa-phone"></i> Call
                 </button>
@@ -284,11 +284,11 @@
               <i class="fa-regular fa-heart fa-2x"></i>
             </div>
             <div class="">
-              <h2 class="text-[24px] font-semibold">
+              <h2 class=" service-name text-[24px] font-semibold">
                 Anti-Corruption Helpline
               </h2>
               <p class="text-[#5C5C5C] mb-[24px]">Anti-Corruption</p>
-              <h1 class="text-[32px] font-bold">106</h1>
+              <h1 class="service-number text-[32px] font-bold">106</h1>
               <button
                 class="text-[#5C5C5C] px-[16px] py-[6px] bg-[#F2F2F2] rounded-full mb-[24px]"
               >
@@ -301,7 +301,7 @@
                   <i class="fa-regular fa-copy"></i>Copy
                 </button>
                 <button
-                  class="btn btn-outline w-39 rounded-[8px] bg-[#00A63E] border-none text-white"
+                  class="call-btn btn btn-outline w-39 rounded-[8px] bg-[#00A63E] border-none text-white"
                 >
                   <i class="fa-solid fa-phone"></i> Call
                 </button>
@@ -326,9 +326,9 @@
               <i class="fa-regular fa-heart fa-2x"></i>
             </div>
             <div class="">
-              <h2 class="text-[24px] font-semibold">Electricity Helpline</h2>
+              <h2 class=" service-name text-[24px] font-semibold">Electricity Helpline</h2>
               <p class="text-[#5C5C5C] mb-[24px]">Electricity Outage</p>
-              <h1 class="text-[32px] font-bold">16216</h1>
+              <h1 class="service-number text-[32px] font-bold">16216</h1>
               <button
                 class="text-[#5C5C5C] px-[16px] py-[6px] bg-[#F2F2F2] rounded-full mb-[24px]"
               >
@@ -341,7 +341,7 @@
                   <i class="fa-regular fa-copy"></i>Copy
                 </button>
                 <button
-                  class="btn btn-outline w-39 rounded-[8px] bg-[#00A63E] border-none text-white"
+                  class="call-btn btn btn-outline w-39 rounded-[8px] bg-[#00A63E] border-none text-white"
                 >
                   <i class="fa-solid fa-phone"></i> Call
                 </button>
@@ -362,9 +362,9 @@
               <i class="fa-regular fa-heart fa-2x"></i>
             </div>
             <div class="">
-              <h2 class="text-[24px] font-semibold">Brac Helpline</h2>
+              <h2 class=" service-name text-[24px] font-semibold">Brac Helpline</h2>
               <p class="text-[#5C5C5C] mb-[24px]">Brac</p>
-              <h1 class="text-[32px] font-bold">16445</h1>
+              <h1 class="service-number text-[32px] font-bold">16445</h1>
               <button
                 class="text-[#5C5C5C] px-[16px] py-[6px] bg-[#F2F2F2] rounded-full mb-[24px]"
               >
@@ -377,7 +377,7 @@
                   <i class="fa-regular fa-copy"></i>Copy
                 </button>
                 <button
-                  class="btn btn-outline w-39 rounded-[8px] bg-[#00A63E] border-none text-white"
+                  class="call-btn btn btn-outline w-39 rounded-[8px] bg-[#00A63E] border-none text-white"
                 >
                   <i class="fa-solid fa-phone"></i> Call
                 </button>
@@ -402,11 +402,11 @@
               <i class="fa-regular fa-heart fa-2x"></i>
             </div>
             <div class="">
-              <h2 class="text-[24px] font-semibold">
+              <h2 class=" service-name text-[24px] font-semibold">
                 Bangladesh Railway Helpline
               </h2>
               <p class="text-[#5C5C5C] mb-[24px]">Bangladesh Railway</p>
-              <h1 class="text-[32px] font-bold">163</h1>
+              <h1 class="service-number text-[32px] font-bold">163</h1>
               <button
                 class="text-[#5C5C5C] px-[16px] py-[6px] bg-[#F2F2F2] rounded-full mb-[24px]"
               >
@@ -419,7 +419,7 @@
                   <i class="fa-regular fa-copy"></i>Copy
                 </button>
                 <button
-                  class="btn btn-outline w-39 rounded-[8px] bg-[#00A63E] border-none text-white"
+                  class="call-btn btn btn-outline w-39 rounded-[8px] bg-[#00A63E] border-none text-white"
                 >
                   <i class="fa-solid fa-phone"></i> Call
                 </button>
