@@ -15,7 +15,7 @@ for (const heart of heartIcons) {
 // call functionality
 
 const callBtns = document.getElementsByClassName("call-btn");
-
+// const callHistory = [];
 
 
 for (const callBtn of callBtns) {
@@ -43,7 +43,7 @@ for (const callBtn of callBtns) {
     //     historyNumber: serviceNumber,
     //     date: new Date().toLocaleTimeString(),
     //   };
-    // const callHistory = [];
+    
 
     //   callHistory.push(history);
 
@@ -79,3 +79,32 @@ document.getElementById('clear-history').addEventListener('click', function(e){
     document.getElementById("history-list").innerText='';
     
 })
+
+
+// copy the service number
+
+let copyCount = parseInt(document.getElementById("copy-count").innerText);
+const copyBtns = document.getElementsByClassName("copy-btn");
+
+for (const copyBtn of copyBtns) {
+  copyBtn.addEventListener("click", function (e) {
+    // const serviceName =
+    //   e.currentTarget.parentNode.parentNode.getElementsByClassName(
+    //     "service-name"
+    //   )[0].innerText;
+
+    const serviceNumber =
+      e.currentTarget.parentNode.parentNode.getElementsByClassName(
+        "service-number"
+      )[0].innerText;
+    //   console.log(serviceNumber);
+      
+    
+      navigator.clipboard.writeText(serviceNumber);
+      alert('Number Copied : '+serviceNumber);
+        copyCount++;
+        document.getElementById("copy-count").innerText = copyCount;
+
+    }
+)
+}
