@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Emergency Hotline</title>
+    <title>Emergency Hotlines</title>
     <!-- daisyui cdn -->
     <link
       href="https://cdn.jsdelivr.net/npm/daisyui@5"
@@ -26,28 +26,30 @@
   <body>
     <header class="">
       <!-- nav section  -->
-      <nav class="mx-[60px] flex justify-between h-[100px]">
-        <div class="flex items-center gap-[10px]">
+      <nav class="mx-[60px] flex justify-between lg:h-[100px]">
+        <div class="flex flex-col my-auto lg:flex-row items-center gap-[10px]">
           <img src="./assets/logo.png" alt="" class="h-[50px] w-[50px]" />
           <h1 class="font-bold text-xl text-green-900">
             Emergency <br />Services
           </h1>
         </div>
-        <div class="flex justify-between items-center gap-[20px]">
+        <div
+          class="flex flex-col lg:flex-row justify-between items-center gap-[20px]"
+        >
           <div
             class="bg-[#41ff6b1a] rounded-full flex justify-between items-center gap-[10px] px-[35px] py-[15px]"
           >
-            <p class="font-bold">100</p>
+            <p class="font-bold">0</p>
             <img src="./assets/heart.png" alt="" class="h-[30px] w-[30px]" />
           </div>
           <div
             class="bg-[#41ff6b1a] rounded-full flex justify-between items-center gap-[10px] px-[35px] py-[15px]"
           >
-            <p class="font-bold">100</p>
+            <p class="font-bold">0</p>
             <img src="./assets/coin.png" alt="" class="h-[30px] w-[30px]" />
           </div>
           <div
-            class="bg-[#00A63E] rounded-full flex justify-between gap-[10px] px-[40px] py-[17px]"
+            class="bg-[#00A63E] rounded-full flex justify-between gap-[10px] px-[35px] py-[15px] mb-[18px] lg:mb-[0px]"
           >
             <p class="font-bold">0</p>
             <p class="font-bold">Copy</p>
@@ -58,23 +60,23 @@
       <!-- banner section  -->
 
       <section
-        class="banner bg-gradient-to-r from-[#013223] via-[#006747] to-[#013223] flex flex-col items-center py-[21px] text-white gap-[12px]"
+        class="banner bg-gradient-to-r from-[#013223] via-[#006747] to-[#013223] flex flex-col items-center py-[21px] text-white gap-[12px] p-[10px]"
       >
         <img src="./assets/logo-dark.png" alt="" class="h-[92px] w-[92px]" />
         <h1 class="font-bold text-3xl">Emergency Service Directory</h1>
         <p class="font-semibold text-sm">
-          Government Emergency Services at Your Fingertip – A Project by
-          Government of the People’s Republic of Bangladesh
+          Government Emergency Services at Your Fingertip - A Project by
+          Government of the People's Republic of Bangladesh
         </p>
       </section>
     </header>
 
-    <main class="bg-[#3bd34a] flex justify-center py-[48px]">
-      <div class="min-h-[500px] border-2 border-red-500 mx-auto flex gap-[30px]">
+    <main class="bg-[#f5fff6] flex justify-center py-[48px]">
+      <div class="min-h-[500px] mx-auto flex gap-[30px] flex-col lg:flex-row">
         <!-- cards -->
-        <section class=" grid grid-cols-1 lg:grid-cols-3 gap-[30px]">
+        <section class="grid grid-cols-1 lg:grid-cols-3 gap-[30px]">
           <!-- national emergency card  -->
-          <div class="card bg-base-100 w-96  shadow-sm p-[32px]">
+          <div class="card bg-base-100 w-96 shadow-sm p-[32px]">
             <div class="flex justify-between items-center mb-[16px]">
               <div
                 class="bg-[#FFE3E2] rounded-xl h-[60px] w-[60px] flex items-center justify-center"
@@ -95,7 +97,7 @@
               <p class="text-[#5C5C5C] mb-[24px]">National Emergency</p>
               <h1 class="text-[32px] font-bold">999</h1>
               <button
-                class="text-[#5C5C5C] px-[16px] py-[6px] bg-[#F2F2F2] rounded-full  mb-[24px]"
+                class="text-[#5C5C5C] px-[16px] py-[6px] bg-[#F2F2F2] rounded-full mb-[24px]"
               >
                 All
               </button>
@@ -134,7 +136,7 @@
               <p class="text-[#5C5C5C] mb-[24px]">Police</p>
               <h1 class="text-[32px] font-bold">999</h1>
               <button
-                class="text-[#5C5C5C] px-[16px] py-[6px] bg-[#F2F2F2] rounded-full  mb-[24px]"
+                class="text-[#5C5C5C] px-[16px] py-[6px] bg-[#F2F2F2] rounded-full mb-[24px]"
               >
                 Police
               </button>
@@ -172,7 +174,7 @@
               <p class="text-[#5C5C5C] mb-[24px]">Fire Service</p>
               <h1 class="text-[32px] font-bold">999</h1>
               <button
-                class="text-[#5C5C5C] px-[16px] py-[6px] bg-[#F2F2F2] rounded-full  mb-[24px]"
+                class="text-[#5C5C5C] px-[16px] py-[6px] bg-[#F2F2F2] rounded-full mb-[24px]"
               >
                 Fire
               </button>
@@ -210,7 +212,7 @@
               <p class="text-[#5C5C5C] mb-[24px]">Ambulance</p>
               <h1 class="text-[32px] font-bold">1994-999999</h1>
               <button
-                class="text-[#5C5C5C] px-[16px] py-[6px] bg-[#F2F2F2] rounded-full  mb-[24px]"
+                class="text-[#5C5C5C] px-[16px] py-[6px] bg-[#F2F2F2] rounded-full mb-[24px]"
               >
                 Health
               </button>
@@ -248,7 +250,7 @@
               <p class="text-[#5C5C5C] mb-[24px]">Women & Child Helpline</p>
               <h1 class="text-[32px] font-bold">109</h1>
               <button
-                class="text-[#5C5C5C] px-[16px] py-[6px] bg-[#F2F2F2] rounded-full  mb-[24px]"
+                class="text-[#5C5C5C] px-[16px] py-[6px] bg-[#F2F2F2] rounded-full mb-[24px]"
               >
                 Help
               </button>
@@ -285,10 +287,10 @@
               <h2 class="text-[24px] font-semibold">
                 Anti-Corruption Helpline
               </h2>
-              <p class="text-[#5C5C5C] mb-[24px]">NAnti-Corruption</p>
+              <p class="text-[#5C5C5C] mb-[24px]">Anti-Corruption</p>
               <h1 class="text-[32px] font-bold">106</h1>
               <button
-                class="text-[#5C5C5C] px-[16px] py-[6px] bg-[#F2F2F2] rounded-full  mb-[24px]"
+                class="text-[#5C5C5C] px-[16px] py-[6px] bg-[#F2F2F2] rounded-full mb-[24px]"
               >
                 Govt.
               </button>
@@ -328,10 +330,10 @@
               <p class="text-[#5C5C5C] mb-[24px]">Electricity Outage</p>
               <h1 class="text-[32px] font-bold">16216</h1>
               <button
-                class="text-[#5C5C5C] px-[16px] py-[6px] bg-[#F2F2F2] rounded-full  mb-[24px]"
+                class="text-[#5C5C5C] px-[16px] py-[6px] bg-[#F2F2F2] rounded-full mb-[24px]"
               >
                 Electricity
-            </button>
+              </button>
               <div class="card-actions">
                 <button
                   class="btn btn-outline w-39 border-gray-300 rounded-[8px]"
@@ -364,7 +366,7 @@
               <p class="text-[#5C5C5C] mb-[24px]">Brac</p>
               <h1 class="text-[32px] font-bold">16445</h1>
               <button
-                class="text-[#5C5C5C] px-[16px] py-[6px] bg-[#F2F2F2] rounded-full  mb-[24px]"
+                class="text-[#5C5C5C] px-[16px] py-[6px] bg-[#F2F2F2] rounded-full mb-[24px]"
               >
                 NGO
               </button>
@@ -406,7 +408,7 @@
               <p class="text-[#5C5C5C] mb-[24px]">Bangladesh Railway</p>
               <h1 class="text-[32px] font-bold">163</h1>
               <button
-                class="text-[#5C5C5C] px-[16px] py-[6px] bg-[#F2F2F2] rounded-full  mb-[24px]"
+                class="text-[#5C5C5C] px-[16px] py-[6px] bg-[#F2F2F2] rounded-full mb-[24px]"
               >
                 Travel
               </button>
@@ -428,17 +430,25 @@
 
         <!-- history  -->
         <aside class="call-history">
-          <div class="h-[1200px] w-96  shadow-sm bg-base-100 rounded-lg">
+          <div class="lg:h-[1200px] w-96 shadow-sm bg-base-100 rounded-lg">
             <div class="flex justify-between items-center pt-[24px] px-[24px]">
-              <div class="flex items-center gap-[10px]"><i class="fa-regular fa-clock fa-lg"></i>
-              <h1 class="font-medium text-[20px]">Call History</h1></div>
-              <button class="bg-[#00A63E] px-[36px] py-[14px] rounded-full text-white font-semibold">Clear</button>
+              <div class="flex items-center gap-[10px]">
+                <i class="fa-regular fa-clock fa-lg"></i>
+                <h1 class="font-medium text-[20px]">Call History</h1>
+              </div>
+              <button
+                class="bg-[#00A63E] px-[36px] py-[14px] rounded-full text-white font-semibold"
+              >
+                Clear
+              </button>
             </div>
 
-<!-- call history list  -->
+            <!-- call history list  -->
 
             <div class="history-list">
-              <div class="flex justify-between items-center mx-[24px] mt-[24px] p-[16px] bg-[#FAFAFA] rounded-[8px]">
+              <div
+                class="flex justify-between items-center mx-[24px] mt-[24px] p-[16px] bg-[#FAFAFA] rounded-[8px]"
+              >
                 <div>
                   <h1 class="font-semibold text-[18px]">Fire Service Number</h1>
                   <p class="text-gray-500">999</p>
@@ -447,13 +457,7 @@
                   <p class="text-[18px] font-normal">11:36:58 AM</p>
                 </div>
               </div>
-
             </div>
-
-
-
-
-
           </div>
         </aside>
       </div>
