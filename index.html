@@ -69,12 +69,12 @@
       </section>
     </header>
 
-    <main class="bg-[#3bd34a]">
-      <div class="min-h-[500px] border-2 border-red-500 mx-[62px]">
+    <main class="bg-[#3bd34a] flex justify-center py-[48px]">
+      <div class="min-h-[500px] border-2 border-red-500 mx-auto flex gap-[30px]">
         <!-- cards -->
-        <section class="card-container flex flex-wrap gap-[30px]">
+        <section class=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[30px]">
           <!-- national emergency card  -->
-          <div class="card bg-base-100 w-96 shadow-sm p-[32px]">
+          <div class="card bg-base-100 w-96  shadow-sm p-[32px]">
             <div class="flex justify-between items-center mb-[16px]">
               <div
                 class="bg-[#FFE3E2] rounded-xl h-[60px] w-[60px] flex items-center justify-center"
@@ -106,7 +106,7 @@
                   <i class="fa-regular fa-copy"></i>Copy
                 </button>
                 <button
-                  class="btn btn-outline w-39 rounded-[8px] bg-[#00A63E] border-none"
+                  class="btn btn-outline w-39 rounded-[8px] bg-[#00A63E] border-none text-white"
                 >
                   <i class="fa-solid fa-phone"></i> Call
                 </button>
@@ -118,7 +118,7 @@
           <div class="card bg-base-100 w-96 shadow-sm p-[32px]">
             <div class="flex justify-between items-center mb-[16px]">
               <div
-                class="bg-[#FFE3E2] rounded-xl h-[60px] w-[60px] flex items-center justify-center"
+                class="bg-[#DFEFFF] rounded-xl h-[60px] w-[60px] flex items-center justify-center"
               >
                 <img
                   src="./assets/police.png"
@@ -145,7 +145,7 @@
                   <i class="fa-regular fa-copy"></i>Copy
                 </button>
                 <button
-                  class="btn btn-outline w-39 rounded-[8px] bg-[#00A63E] border-none"
+                  class="btn btn-outline w-39 rounded-[8px] bg-[#00A63E] border-none text-white"
                 >
                   <i class="fa-solid fa-phone"></i> Call
                 </button>
@@ -183,7 +183,7 @@
                   <i class="fa-regular fa-copy"></i>Copy
                 </button>
                 <button
-                  class="btn btn-outline w-39 rounded-[8px] bg-[#00A63E] border-none"
+                  class="btn btn-outline w-39 rounded-[8px] bg-[#00A63E] border-none text-white"
                 >
                   <i class="fa-solid fa-phone"></i> Call
                 </button>
@@ -221,7 +221,7 @@
                   <i class="fa-regular fa-copy"></i>Copy
                 </button>
                 <button
-                  class="btn btn-outline w-39 rounded-[8px] bg-[#00A63E] border-none"
+                  class="btn btn-outline w-39 rounded-[8px] bg-[#00A63E] border-none text-white"
                 >
                   <i class="fa-solid fa-phone"></i> Call
                 </button>
@@ -259,7 +259,7 @@
                   <i class="fa-regular fa-copy"></i>Copy
                 </button>
                 <button
-                  class="btn btn-outline w-39 rounded-[8px] bg-[#00A63E] border-none"
+                  class="btn btn-outline w-39 rounded-[8px] bg-[#00A63E] border-none text-white"
                 >
                   <i class="fa-solid fa-phone"></i> Call
                 </button>
@@ -299,7 +299,7 @@
                   <i class="fa-regular fa-copy"></i>Copy
                 </button>
                 <button
-                  class="btn btn-outline w-39 rounded-[8px] bg-[#00A63E] border-none"
+                  class="btn btn-outline w-39 rounded-[8px] bg-[#00A63E] border-none text-white"
                 >
                   <i class="fa-solid fa-phone"></i> Call
                 </button>
@@ -339,7 +339,7 @@
                   <i class="fa-regular fa-copy"></i>Copy
                 </button>
                 <button
-                  class="btn btn-outline w-39 rounded-[8px] bg-[#00A63E] border-none"
+                  class="btn btn-outline w-39 rounded-[8px] bg-[#00A63E] border-none text-white"
                 >
                   <i class="fa-solid fa-phone"></i> Call
                 </button>
@@ -375,7 +375,7 @@
                   <i class="fa-regular fa-copy"></i>Copy
                 </button>
                 <button
-                  class="btn btn-outline w-39 rounded-[8px] bg-[#00A63E] border-none"
+                  class="btn btn-outline w-39 rounded-[8px] bg-[#00A63E] border-none text-white"
                 >
                   <i class="fa-solid fa-phone"></i> Call
                 </button>
@@ -417,7 +417,7 @@
                   <i class="fa-regular fa-copy"></i>Copy
                 </button>
                 <button
-                  class="btn btn-outline w-39 rounded-[8px] bg-[#00A63E] border-none"
+                  class="btn btn-outline w-39 rounded-[8px] bg-[#00A63E] border-none text-white"
                 >
                   <i class="fa-solid fa-phone"></i> Call
                 </button>
@@ -427,7 +427,16 @@
         </section>
 
         <!-- history  -->
-        <aside class="call-history"></aside>
+        <aside class="call-history">
+          <div class="h-[1200px] w-96  shadow-sm bg-base-100 rounded-lg">
+            <div class="flex justify-between items-center pt-[24px] px-[24px]">
+              <div class="flex items-center gap-[10px]"><i class="fa-regular fa-clock"></i>
+              <h1 class="font-medium text-[20px]">Call History</h1></div>
+              <button class="bg-[#00A63E] px-[36px] py-[14px] rounded-full text-white font-semibold">Clear</button>
+            </div>
+
+          </div>
+        </aside>
       </div>
     </main>
     <footer></footer>
