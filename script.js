@@ -56,11 +56,11 @@ for (const callBtn of callBtns) {
                 class="flex justify-between items-center mx-[24px] mt-[24px] p-[16px] bg-[#FAFAFA] rounded-[8px]"
               >
                 <div>
-                  <h1 class="font-semibold text-[18px]">${serviceName}</h1>
-                  <p class="text-gray-500">${serviceNumber}</p>
+                  <h1 class="font-semibold text-[18px] inter-font">${serviceName}</h1>
+                  <p class="text-gray-500 hind-madurai">${serviceNumber}</p>
                 </div>
                 <div>
-                  <p class="text-[18px] font-normal">${new Date().toLocaleTimeString()}</p>
+                  <p class="text-[18px] font-normal hind-madurai">${new Date().toLocaleTimeString()}</p>
                 </div>
               </div>`;
         historyList.appendChild(div);

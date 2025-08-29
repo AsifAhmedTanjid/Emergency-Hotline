@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Emergency Hotlines</title>
+    <link rel="stylesheet" href="style.css">
     <!-- daisyui cdn -->
     <link
       href="https://cdn.jsdelivr.net/npm/daisyui@5"
@@ -26,7 +27,7 @@
   <body>
     <header class="">
       <!-- nav section  -->
-      <nav class="mx-[60px] flex justify-between lg:h-[100px]">
+      <nav class="mx-[60px] flex justify-between lg:h-[100px] mt-[20px] lg:mt-[0px]">
         <div class="flex flex-col my-auto lg:flex-row items-center gap-[10px]">
           <img src="./assets/logo.png" alt="" class="h-[50px] w-[50px]" />
           <h1 class="font-bold text-xl text-green-900">
@@ -39,20 +40,20 @@
           <div
             class="bg-[#41ff6b1a] rounded-full flex justify-between items-center gap-[10px] px-[35px] py-[15px]"
           >
-            <p class="font-bold" id="heart-count">0</p>
+            <p class="font-bold inter-font" id="heart-count">0</p>
             <img src="./assets/heart.png" alt="" class="h-[30px] w-[30px]" />
           </div>
           <div
             class="bg-[#41ff6b1a] rounded-full flex justify-between items-center gap-[10px] px-[35px] py-[15px]"
           >
-            <p class="font-bold" id="coin-count">100</p>
+            <p class="font-bold inter-font" id="coin-count">100</p>
             <img src="./assets/coin.png" alt="" class="h-[30px] w-[30px]" />
           </div>
           <div
             class="bg-[#00A63E] text-white rounded-full flex justify-between gap-[10px] px-[35px] py-[15px] mb-[18px] lg:mb-[0px]"
           >
-            <p class="font-bold" id="copy-count">0</p>
-            <p class="font-bold">Copy</p>
+            <p class="font-bold inter-font" id="copy-count">0</p>
+            <p class="font-bold inter-font">Copy</p>
           </div>
         </div>
       </nav>
@@ -63,8 +64,8 @@
         class="banner bg-gradient-to-r from-[#013223] via-[#006747] to-[#013223] flex flex-col items-center py-[21px] text-white gap-[12px] p-[10px]"
       >
         <img src="./assets/logo-dark.png" alt="" class="h-[92px] w-[92px]" />
-        <h1 class="font-bold text-3xl">Emergency Service Directory</h1>
-        <p class="font-semibold text-sm">
+        <h1 class="font-bold text-[40px] hind-madurai">Emergency Service Directory</h1>
+        <p class="font-semibold text-[20px] hind-madurai">
           Government Emergency Services at Your Fingertip - A Project by
           Government of the People's Republic of Bangladesh
         </p>
@@ -91,24 +92,24 @@
               <i class="fa-regular fa-heart fa-2x cursor-pointer"></i>
             </div>
             <div class="">
-              <h2 class=" service-name text-[24px] font-semibold">
+              <h2 class=" service-name text-[24px] font-semibold hind-madurai">
                 National Emergency Number
               </h2>
-              <p class="text-[#5C5C5C] mb-[24px]">National Emergency</p>
-              <h1 class="service-number text-[32px] font-bold">999</h1>
+              <p class="text-[#5C5C5C] mb-[24px] roboto-font">National Emergency</p>
+              <h1 class="service-number text-[32px] font-bold roboto-font">999</h1>
               <button
-                class="text-[#5C5C5C] px-[16px] py-[6px] bg-[#F2F2F2] rounded-full mb-[24px]"
+                class="text-[#5C5C5C] px-[16px] py-[6px] bg-[#F2F2F2] rounded-full mb-[24px] hind-madurai"
               >
                 All
               </button>
               <div class="card-actions">
                 <button
-                  class="copy-btn btn btn-outline w-39 border-gray-300 rounded-[8px]"
+                  class="copy-btn btn btn-outline w-39 border-gray-300 rounded-[8px] roboto-font"
                 >
                   <i class="fa-regular fa-copy"></i>Copy
                 </button>
                 <button
-                  class="call-btn btn btn-outline w-39 rounded-[8px] bg-[#00A63E] border-none text-white"
+                  class="call-btn btn btn-outline w-39 rounded-[8px] bg-[#00A63E] border-none text-white roboto-font"
                 >
                   <i class="fa-solid fa-phone"></i> Call
                 </button>
@@ -132,22 +133,22 @@
               <i class="fa-regular fa-heart fa-2x cursor-pointer"></i>
             </div>
             <div class="">
-              <h2 class=" service-name text-[24px] font-semibold">Police Helpline Number</h2>
-              <p class="text-[#5C5C5C] mb-[24px]">Police</p>
-              <h1 class="service-number text-[32px] font-bold">999</h1>
+               <h2 class=" service-name text-[24px] font-semibold hind-madurai">Police Helpline Number</h2>
+              <p class="text-[#5C5C5C] mb-[24px] roboto-font">Police</p>
+              <h1 class="service-number text-[32px] font-bold roboto-font">999</h1>
               <button
-                class="text-[#5C5C5C] px-[16px] py-[6px] bg-[#F2F2F2] rounded-full mb-[24px]"
+                class="text-[#5C5C5C] px-[16px] py-[6px] bg-[#F2F2F2] rounded-full mb-[24px] hind-madurai"
               >
                 Police
               </button>
               <div class="card-actions">
                 <button
-                  class="copy-btn btn btn-outline w-39 border-gray-300 rounded-[8px]"
+                  class="copy-btn btn btn-outline w-39 border-gray-300 rounded-[8px] roboto-font"
                 >
                   <i class="fa-regular fa-copy"></i>Copy
                 </button>
                 <button
-                  class="call-btn btn btn-outline w-39 rounded-[8px] bg-[#00A63E] border-none text-white"
+                  class="call-btn btn btn-outline w-39 rounded-[8px] bg-[#00A63E] border-none text-white roboto-font"
                 >
                   <i class="fa-solid fa-phone"></i> Call
                 </button>
@@ -170,22 +171,22 @@
               <i class="fa-regular fa-heart fa-2x cursor-pointer"></i>
             </div>
             <div class="">
-              <h2 class=" service-name text-[24px] font-semibold">Fire Service Number</h2>
-              <p class="text-[#5C5C5C] mb-[24px]">Fire Service</p>
-              <h1 class="service-number text-[32px] font-bold">999</h1>
+               <h2 class=" service-name text-[24px] font-semibold hind-madurai">Fire Service Number</h2>
+              <p class="text-[#5C5C5C] mb-[24px] roboto-font">Fire Service</p>
+              <h1 class="service-number text-[32px] font-bold roboto-font">999</h1>
               <button
-                class="text-[#5C5C5C] px-[16px] py-[6px] bg-[#F2F2F2] rounded-full mb-[24px]"
+                class="text-[#5C5C5C] px-[16px] py-[6px] bg-[#F2F2F2] rounded-full mb-[24px] hind-madurai"
               >
                 Fire
               </button>
               <div class="card-actions">
                 <button
-                  class="copy-btn btn btn-outline w-39 border-gray-300 rounded-[8px]"
+                  class="copy-btn btn btn-outline w-39 border-gray-300 rounded-[8px] roboto-font"
                 >
                   <i class="fa-regular fa-copy"></i>Copy
                 </button>
                 <button
-                  class="call-btn btn btn-outline w-39 rounded-[8px] bg-[#00A63E] border-none text-white"
+                  class="call-btn btn btn-outline w-39 rounded-[8px] bg-[#00A63E] border-none text-white roboto-font"
                 >
                   <i class="fa-solid fa-phone"></i> Call
                 </button>
@@ -208,22 +209,22 @@
               <i class="fa-regular fa-heart fa-2x cursor-pointer"></i>
             </div>
             <div class="">
-              <h2 class=" service-name text-[24px] font-semibold">Ambulance Service</h2>
-              <p class="text-[#5C5C5C] mb-[24px]">Ambulance</p>
-              <h1 class="service-number text-[32px] font-bold">1994-999999</h1>
+               <h2 class=" service-name text-[24px] font-semibold hind-madurai">Ambulance Service</h2>
+              <p class="text-[#5C5C5C] mb-[24px] roboto-font">Ambulance</p>
+              <h1 class="service-number text-[32px] font-bold roboto-font">1994-999999</h1>
               <button
-                class="text-[#5C5C5C] px-[16px] py-[6px] bg-[#F2F2F2] rounded-full mb-[24px]"
+                class="text-[#5C5C5C] px-[16px] py-[6px] bg-[#F2F2F2] rounded-full mb-[24px] hind-madurai"
               >
                 Health
               </button>
               <div class="card-actions">
                 <button
-                  class="copy-btn btn btn-outline w-39 border-gray-300 rounded-[8px]"
+                  class="copy-btn btn btn-outline w-39 border-gray-300 rounded-[8px] roboto-font"
                 >
                   <i class="fa-regular fa-copy"></i>Copy
                 </button>
                 <button
-                  class="call-btn btn btn-outline w-39 rounded-[8px] bg-[#00A63E] border-none text-white"
+                  class="call-btn btn btn-outline w-39 rounded-[8px] bg-[#00A63E] border-none text-white roboto-font"
                 >
                   <i class="fa-solid fa-phone"></i> Call
                 </button>
@@ -246,22 +247,22 @@
               <i class="fa-regular fa-heart fa-2x cursor-pointer"></i>
             </div>
             <div class="">
-              <h2 class=" service-name text-[24px] font-semibold">Women & Child Helpline</h2>
-              <p class="text-[#5C5C5C] mb-[24px]">Women & Child Helpline</p>
-              <h1 class="service-number text-[32px] font-bold">109</h1>
+               <h2 class=" service-name text-[24px] font-semibold hind-madurai">Women & Child Helpline</h2>
+              <p class="text-[#5C5C5C] mb-[24px] roboto-font">Women & Child Helpline</p>
+              <h1 class="service-number text-[32px] font-bold roboto-font">109</h1>
               <button
-                class="text-[#5C5C5C] px-[16px] py-[6px] bg-[#F2F2F2] rounded-full mb-[24px]"
+                class="text-[#5C5C5C] px-[16px] py-[6px] bg-[#F2F2F2] rounded-full mb-[24px] hind-madurai"
               >
                 Help
               </button>
               <div class="card-actions">
                 <button
-                  class="copy-btn btn btn-outline w-39 border-gray-300 rounded-[8px]"
+                  class="copy-btn btn btn-outline w-39 border-gray-300 rounded-[8px] roboto-font"
                 >
                   <i class="fa-regular fa-copy"></i>Copy
                 </button>
                 <button
-                  class="call-btn btn btn-outline w-39 rounded-[8px] bg-[#00A63E] border-none text-white"
+                  class="call-btn btn btn-outline w-39 rounded-[8px] bg-[#00A63E] border-none text-white roboto-font"
                 >
                   <i class="fa-solid fa-phone"></i> Call
                 </button>
@@ -284,24 +285,24 @@
               <i class="fa-regular fa-heart fa-2x cursor-pointer"></i>
             </div>
             <div class="">
-              <h2 class=" service-name text-[24px] font-semibold">
+               <h2 class=" service-name text-[24px] font-semibold hind-madurai">
                 Anti-Corruption Helpline
               </h2>
-              <p class="text-[#5C5C5C] mb-[24px]">Anti-Corruption</p>
-              <h1 class="service-number text-[32px] font-bold">106</h1>
+              <p class="text-[#5C5C5C] mb-[24px] roboto-font">Anti-Corruption</p>
+              <h1 class="service-number text-[32px] font-bold roboto-font">106</h1>
               <button
-                class="text-[#5C5C5C] px-[16px] py-[6px] bg-[#F2F2F2] rounded-full mb-[24px]"
+                class="text-[#5C5C5C] px-[16px] py-[6px] bg-[#F2F2F2] rounded-full mb-[24px] hind-madurai"
               >
                 Govt.
               </button>
               <div class="card-actions">
                 <button
-                  class="copy-btn btn btn-outline w-39 border-gray-300 rounded-[8px]"
+                  class="copy-btn btn btn-outline w-39 border-gray-300 rounded-[8px] roboto-font"
                 >
                   <i class="fa-regular fa-copy"></i>Copy
                 </button>
                 <button
-                  class="call-btn btn btn-outline w-39 rounded-[8px] bg-[#00A63E] border-none text-white"
+                  class="call-btn btn btn-outline w-39 rounded-[8px] bg-[#00A63E] border-none text-white roboto-font"
                 >
                   <i class="fa-solid fa-phone"></i> Call
                 </button>
@@ -326,22 +327,22 @@
               <i class="fa-regular fa-heart fa-2x cursor-pointer"></i>
             </div>
             <div class="">
-              <h2 class=" service-name text-[24px] font-semibold">Electricity Helpline</h2>
-              <p class="text-[#5C5C5C] mb-[24px]">Electricity Outage</p>
-              <h1 class="service-number text-[32px] font-bold">16216</h1>
+               <h2 class=" service-name text-[24px] font-semibold hind-madurai">Electricity Helpline</h2>
+              <p class="text-[#5C5C5C] mb-[24px] roboto-font">Electricity Outage</p>
+              <h1 class="service-number text-[32px] font-bold roboto-font">16216</h1>
               <button
-                class="text-[#5C5C5C] px-[16px] py-[6px] bg-[#F2F2F2] rounded-full mb-[24px]"
+                class="text-[#5C5C5C] px-[16px] py-[6px] bg-[#F2F2F2] rounded-full mb-[24px] hind-madurai"
               >
                 Electricity
               </button>
               <div class="card-actions">
                 <button
-                  class="copy-btn btn btn-outline w-39 border-gray-300 rounded-[8px]"
+                  class="copy-btn btn btn-outline w-39 border-gray-300 rounded-[8px] roboto-font"
                 >
                   <i class="fa-regular fa-copy"></i>Copy
                 </button>
                 <button
-                  class="call-btn btn btn-outline w-39 rounded-[8px] bg-[#00A63E] border-none text-white"
+                  class="call-btn btn btn-outline w-39 rounded-[8px] bg-[#00A63E] border-none text-white roboto-font"
                 >
                   <i class="fa-solid fa-phone"></i> Call
                 </button>
@@ -362,22 +363,22 @@
               <i class="fa-regular fa-heart fa-2x cursor-pointer"></i>
             </div>
             <div class="">
-              <h2 class=" service-name text-[24px] font-semibold">Brac Helpline</h2>
-              <p class="text-[#5C5C5C] mb-[24px]">Brac</p>
-              <h1 class="service-number text-[32px] font-bold">16445</h1>
+               <h2 class=" service-name text-[24px] font-semibold hind-madurai">Brac Helpline</h2>
+              <p class="text-[#5C5C5C] mb-[24px] roboto-font">Brac</p>
+              <h1 class="service-number text-[32px] font-bold roboto-font">16445</h1>
               <button
-                class="text-[#5C5C5C] px-[16px] py-[6px] bg-[#F2F2F2] rounded-full mb-[24px]"
+                class="text-[#5C5C5C] px-[16px] py-[6px] bg-[#F2F2F2] rounded-full mb-[24px] hind-madurai"
               >
                 NGO
               </button>
               <div class="card-actions">
                 <button
-                  class="copy-btn btn btn-outline w-39 border-gray-300 rounded-[8px]"
+                  class="copy-btn btn btn-outline w-39 border-gray-300 rounded-[8px] roboto-font"
                 >
                   <i class="fa-regular fa-copy"></i>Copy
                 </button>
                 <button
-                  class="call-btn btn btn-outline w-39 rounded-[8px] bg-[#00A63E] border-none text-white"
+                  class="call-btn btn btn-outline w-39 rounded-[8px] bg-[#00A63E] border-none text-white roboto-font"
                 >
                   <i class="fa-solid fa-phone"></i> Call
                 </button>
@@ -402,24 +403,24 @@
               <i class="fa-regular fa-heart fa-2x cursor-pointer"></i>
             </div>
             <div class="">
-              <h2 class=" service-name text-[24px] font-semibold">
+               <h2 class=" service-name text-[24px] font-semibold hind-madurai">
                 Bangladesh Railway Helpline
               </h2>
-              <p class="text-[#5C5C5C] mb-[24px]">Bangladesh Railway</p>
-              <h1 class="service-number text-[32px] font-bold">163</h1>
+              <p class="text-[#5C5C5C] mb-[24px] roboto-font">Bangladesh Railway</p>
+              <h1 class="service-number text-[32px] font-bold roboto-font">163</h1>
               <button
-                class="text-[#5C5C5C] px-[16px] py-[6px] bg-[#F2F2F2] rounded-full mb-[24px]"
+                class="text-[#5C5C5C] px-[16px] py-[6px] bg-[#F2F2F2] rounded-full mb-[24px] hind-madurai"
               >
                 Travel
               </button>
               <div class="card-actions">
                 <button
-                  class="copy-btn btn btn-outline w-39 border-gray-300 rounded-[8px]"
+                  class="copy-btn btn btn-outline w-39 border-gray-300 rounded-[8px] roboto-font"
                 >
                   <i class="fa-regular fa-copy"></i>Copy
                 </button>
                 <button
-                  class="call-btn btn btn-outline w-39 rounded-[8px] bg-[#00A63E] border-none text-white"
+                  class="call-btn btn btn-outline w-39 rounded-[8px] bg-[#00A63E] border-none text-white roboto-font"
                 >
                   <i class="fa-solid fa-phone"></i> Call
                 </button>
@@ -434,10 +435,10 @@
             <div class="flex justify-between items-center pt-[24px] px-[24px]">
               <div class="flex items-center gap-[10px]">
                 <i class="fa-regular fa-clock fa-lg  mb-[24px]"></i>
-                <h1 class="font-medium text-[20px]  mb-[24px]">Call History</h1>
+                <h1 class="font-medium text-[20px]  mb-[24px] roboto-font">Call History</h1>
               </div>
               <button id="clear-history"
-                class="bg-[#00A63E] px-[36px] py-[14px] rounded-full text-white font-semibold cursor-pointer  mb-[24px]"
+                class="bg-[#00A63E] px-[36px] py-[14px] rounded-full text-white font-semibold cursor-pointer  mb-[24px] inter-font"
               >
                 Clear
               </button>
