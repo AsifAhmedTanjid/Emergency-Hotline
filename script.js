@@ -1,4 +1,4 @@
-console.log("connected");
+// console.log("connected");
 
 // heart increase functionality
 
